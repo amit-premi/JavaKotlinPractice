@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa047180-146c-4161-b2d6-5bc0f5b32504" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/array/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/InputStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/LoopTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/NotificationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/NumberReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/OOPSPrac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/RecursionCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/ReverseEachWordString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/ReverseStringWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/SampleDateFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/StringMixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/common/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/hashmap/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/hashmap/DuplicateItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/hashmap/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/hashmap/TestHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/linklist/InsertAtPosInvalidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/linklist/LListAddReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/linklist/LListDeletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/linklist/LinkListReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/linklist/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/practice/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/practice/LoopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/practice/MiscTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/practice/OddEvenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/practice/SwapWith2Var.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/queue/QueueMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/threads/ConsumerProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/threads/Sync1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/threads/Sync2Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/threads/VolatileVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/java/tree/TreeTraversalRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/kotlin/common/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/replay/hackerrank/BouquetProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/replay/hackerrank/LinkListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/replay/hackerrank/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/replay/java/SimplyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/replay/java/hashmap/HashMapCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/replay/java/queue/QueueCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/replay/kotlin/HashMapCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/replay/techgig/BasicDataType/EvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/replay/techgig/SampleTestCase.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1005" />
+    <option name="width" value="900" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaKotlinPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKotlinPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaKotlinPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKotlinPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaKotlinPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKotlinPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaKotlinPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKotlinPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaKotlinPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKotlinPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaKotlinPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKotlinPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaKotlinPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKotlinPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="replay" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyGit\JavaKotlinPractice\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa047180-146c-4161-b2d6-5bc0f5b32504" name="Default" comment="" />
+      <created>1538208802892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538208802892</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25604996" />
+      <window_info id="Learn" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32993197" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/replay/java/queue/QueueCreation.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
