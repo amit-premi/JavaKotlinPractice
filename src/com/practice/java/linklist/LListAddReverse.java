@@ -116,7 +116,6 @@ public class LListAddReverse {
 		int length = 0;
 		if(headFirst == null) {
 			headFirst = nodeAdd;
-			length++;
 		}else if(pos < 0 || pos > (listLength(headFirst)-1)) {
 			throw new InsertAtPosInvalidException("Invalid position provided: As it's greater than link list length");
 		}else if(pos == 0){

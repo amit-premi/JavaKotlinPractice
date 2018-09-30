@@ -34,7 +34,7 @@ public class VolatileVar {
 			}
 		}
 
-		public void stopRunner() {
+		private void stopRunner() {
 			stopFlag = false;
 			System.out.println("Stop Runner: "+stopFlag);
 		}

@@ -11,13 +11,11 @@ public class ThreadTest {
 		EvenNumber evenNumber = new ThreadTest().new EvenNumber();
 		Thread tEven = new Thread(evenNumber);
 		tEven.start();
-
-
 	}
 
 	private class OddNumber implements Runnable{
-
 		int oddNumb = 1;
+
 		@Override
 		public void run() {
 			try {
@@ -33,8 +31,8 @@ public class ThreadTest {
 	}
 
 	private class EvenNumber implements Runnable{
-
 		int evenNumb = 2;
+
 		@Override
 		public void run() {
 			try {

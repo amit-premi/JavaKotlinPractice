@@ -33,8 +33,8 @@ public class ConsumerProducer {
 	}*/
 
 	//Producer-Consumer problem using an ArrayList(i.e. not an synchronized object)
-	private List<Integer> itemList = new ArrayList<Integer>();
-	public void producerChain() throws InterruptedException {
+	final private List<Integer> itemList = new ArrayList<>();
+	private void producerChain() throws InterruptedException {
 		synchronized (itemList) {
 			while(true) {
 				Random ranPro = new Random();
@@ -42,6 +42,9 @@ public class ConsumerProducer {
 				if(itemList.size() > ITEM_BUFFER) {
 					itemList.wait();
 					itemList.notify();
+
+
+
 				}else{
 					int itemAdd = ranPro.nextInt(1000);
 					itemList.add(itemAdd);
@@ -51,7 +54,7 @@ public class ConsumerProducer {
 		}
 	}
 
-	public void consumerChain() throws InterruptedException {
+	private void consumerChain() throws InterruptedException {
 		synchronized (itemList) {
 			while(true) {
 				if(itemList.size() >= ITEM_BUFFER && itemList.get(0) != null) {

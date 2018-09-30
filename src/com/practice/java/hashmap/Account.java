@@ -5,15 +5,15 @@ public class Account {
 	private int accountNumber;
     private String holderName;
  
-    public Account(int accountNumber) {
+    Account(int accountNumber) {
         this.accountNumber = accountNumber;
     }
  
-    public String getHolderName() {
+    String getHolderName() {
         return holderName;
     }
  
-    public void setHolderName(String holderName) {
+    void setHolderName(String holderName) {
         this.holderName = holderName;
     }
  
@@ -40,10 +40,6 @@ public class Account {
         if (getClass() != obj.getClass())
             return false;
         Account other = (Account) obj;
-        if (accountNumber != other.accountNumber)
-            return false;
-        return true;
+        return (accountNumber != other.accountNumber);
     }
- 
-
 }

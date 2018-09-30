@@ -22,7 +22,7 @@ public class HashMapTest {
 		private String firstName;
 		private String lastName;
 
-		public Friend(String fName, String lName) {
+		Friend(String fName, String lName) {
 			super();
 			this.firstName = fName;
 			this.lastName = lName;

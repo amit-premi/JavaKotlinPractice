@@ -21,7 +21,6 @@ public class LinkedList{
 			while (temp.next != null) {
 				temp = temp.next;
 			}
-
 			temp.next = node;
 		}
 	}
@@ -69,7 +68,5 @@ public class LinkedList{
 		Node reverseHead=reverseLinkedList(nodeHead);
 		System.out.println("After reversing");
 		list.printList(reverseHead);
-
 	}
-
 }

@@ -67,7 +67,5 @@ public class TreeTraversalRecursion {
 		inOrderTraverse(rootNode);
 		System.out.print("\nPostOrder Tree Traversal: ");
 		postOrderTraverse(rootNode);
-
 	}
-
 }

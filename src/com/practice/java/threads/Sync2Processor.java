@@ -5,17 +5,17 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @author M1036398
+ * @author Amit PREMI
  *
  */
 public class Sync2Processor {
 
 	private Random random = new Random();
-	private List<Integer> list1 = new ArrayList<Integer>();
-	private List<Integer> list2 = new ArrayList<Integer>();
+	private List<Integer> list1 = new ArrayList<>();
+	private List<Integer> list2 = new ArrayList<>();
 
-	Object objLock1 = new Object();
-	Object objLock2 = new Object();
+	final private Object objLock1 = new Object();
+	final private Object objLock2 = new Object();
 
 
 	private void stage1() {
@@ -85,7 +85,6 @@ public class Sync2Processor {
 		System.out.println("List1 size: "+list1.size());
 		System.out.println("List2 size: "+list2.size());
 	}
-
 
 	public static void main(String... args) {
 		new Sync2Processor().mainProcess();

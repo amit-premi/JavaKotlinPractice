@@ -1,8 +1,8 @@
 package com.practice.java.linklist;
 
-public class InsertAtPosInvalidException extends Exception{
+class InsertAtPosInvalidException extends Exception{
 	
-	public InsertAtPosInvalidException(String message) {
+	InsertAtPosInvalidException(String message) {
 		super(message);
 	}
 }

@@ -2,7 +2,6 @@ package com.practice.java.practice;
 
 public class MiscTest {
 
-
 	/*public static void displayResult(String s) {
 		System.out.println("Display String");
 	}*/

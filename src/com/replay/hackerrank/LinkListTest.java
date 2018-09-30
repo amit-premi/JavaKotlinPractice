@@ -26,7 +26,6 @@ public class LinkListTest {
             this.head = null;
             this.tail = null;
         }
-
     }
 
     private static void printSinglyLinkedList(SinglyLinkedListNode node, String sep) {

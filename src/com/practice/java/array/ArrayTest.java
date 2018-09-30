@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ArrayTest {
 
-	public static void main(String args[]) throws NumberFormatException, IOException {
+	public static void main(String args[]) throws NumberFormatException {
 
 		int rowCount;
 		int colCount;
