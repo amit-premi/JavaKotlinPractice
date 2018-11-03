@@ -1,4 +1,4 @@
-package com.practice.java.practice;
+package com.practice.java.test;
 
 public class MiscTest {
 
@@ -87,5 +87,5 @@ public class MiscTest {
     }
 
 }  */
-	
+
 }

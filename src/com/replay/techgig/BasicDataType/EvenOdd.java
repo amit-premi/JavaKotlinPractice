@@ -1,6 +1,5 @@
 package com.replay.techgig.BasicDataType;
 
-import java.io.BufferedReader;
 import java.util.Scanner;
 
 /**
@@ -8,7 +7,7 @@ import java.util.Scanner;
  */
 public class EvenOdd {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numb = sc.nextInt();
 
@@ -18,9 +17,9 @@ public class EvenOdd {
             System.out.println("Odd");
         }*/
 
-        if((numb & 1) == 0){
+        if ((numb & 1) == 0) {
             System.out.println("Even");
-        }else{
+        } else {
             System.out.println("Odd");
         }
     }

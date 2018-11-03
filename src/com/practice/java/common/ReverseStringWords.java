@@ -6,29 +6,29 @@ import java.io.InputStreamReader;
 
 public class ReverseStringWords {
 
-	public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.print("Enter a String value: " +"\n \t");
-		String str = br.readLine();
-		int strLength = str.length();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Enter a String value: " + "\n \t");
+        String str = br.readLine();
+        int strLength = str.length();
 
-		String temp = "";
-		String strOutput = "";
+        String temp = "";
+        String strOutput = "";
 
-		for(int i=strLength-1; i>=0; i--) {
-			if(str.charAt(i) != ' ') {
-				temp = temp +""+ str.charAt(i);
+        for (int i = strLength - 1; i >= 0; i--) {
+            if (str.charAt(i) != ' ') {
+                temp = temp + "" + str.charAt(i);
 
-				if(i==0){
-					strOutput = temp +" "+ strOutput;
-				}
-			}else {
-				strOutput = temp+ " "+ strOutput;
-				temp = "";				
-			}
-		}
+                if (i == 0) {
+                    strOutput = temp + " " + strOutput;
+                }
+            } else {
+                strOutput = temp + " " + strOutput;
+                temp = "";
+            }
+        }
 
-		System.out.print("Final Output String: " +"\n \t"+ strOutput);
-	}
+        System.out.print("Final Output String: " + "\n \t" + strOutput);
+    }
 }

@@ -19,78 +19,79 @@ Print an integer denoting the total number of times the client receives a notifi
 
 public class NotificationTest {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		boolean validFlag = false;
-		int tranDay = 0;
-		int priorDay = 0;
-		ArrayList<Integer> transList = new ArrayList<Integer>();
+        boolean validFlag = false;
+        int tranDay = 0;
+        int priorDay = 0;
+        ArrayList<Integer> transList = new ArrayList<Integer>();
 
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Please enter days of transaction & prior days");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please enter days of transaction & prior days");
 
-		while(validFlag == false) {
-			tranDay = sc.nextInt();
-			if(tranDay <1 || tranDay >2*Math.pow(10, 5)) {
-				validFlag = false;
-			}else {
-				validFlag = true;
-			}
-		}
+        while (validFlag == false) {
+            tranDay = sc.nextInt();
+            if (tranDay < 1 || tranDay > 2 * Math.pow(10, 5)) {
+                validFlag = false;
+            } else {
+                validFlag = true;
+            }
+        }
 
-		validFlag = false;
-		while(validFlag == false) {
-			priorDay = sc.nextInt();
-			if(priorDay <1 || priorDay > tranDay) {
-				validFlag = false;
-			}else {
-				validFlag = true;
-			}
-		}
-		System.out.println("Days of Transaction & prior days: "+tranDay +" "+ priorDay);
+        validFlag = false;
+        while (validFlag == false) {
+            priorDay = sc.nextInt();
+            if (priorDay < 1 || priorDay > tranDay) {
+                validFlag = false;
+            } else {
+                validFlag = true;
+            }
+        }
+        System.out.println("Days of Transaction & prior days: " + tranDay + " " + priorDay);
 
-		int n=0;
-		int temp;
-		while(n<tranDay) {
-			temp = sc.nextInt();
-			if(temp <0 || temp > 200) {
-			}else {
-				transList.add(temp);
-				n++;	
-			}		
-		}
+        int n = 0;
+        int temp;
+        while (n < tranDay) {
+            temp = sc.nextInt();
+            if (temp < 0 || temp > 200) {
+            } else {
+                transList.add(temp);
+                n++;
+            }
+        }
 
-		//System.out.println("Total transactions done: "+transList.toString());
-		for(Integer val: transList) {
-			System.out.print(val +" ");
-		}
-		System.out.println("");
+        //System.out.println("Total transactions done: "+transList.toString());
+        for (Integer val : transList) {
+            System.out.print(val + " ");
+        }
+        System.out.println("");
 
-		n=0;
-		int diff = priorDay;
-		int countNotify = 0;
-		List<Integer> tempList;
-		if(priorDay == tranDay) {
-			System.out.println("Total number of notifaction: "+0);
-		}while(priorDay != tranDay) {
-			tempList = new ArrayList<Integer>(transList.subList(n, priorDay));
-			Collections.sort(tempList);
-			
-			if(diff%2 == 0) {
-				if(2*(tempList.get(diff/2) + tempList.get((diff/2) +1)) <= transList.get(priorDay)) {
-					countNotify++;
-				}
-			}else { 
-				if(2*tempList.get((int) Math.ceil(diff/2)) <= transList.get(priorDay)) {
-					countNotify++;
-				}
-			}
-			n++;
-			priorDay++;
-		}
+        n = 0;
+        int diff = priorDay;
+        int countNotify = 0;
+        List<Integer> tempList;
+        if (priorDay == tranDay) {
+            System.out.println("Total number of notifaction: " + 0);
+        }
+        while (priorDay != tranDay) {
+            tempList = new ArrayList<Integer>(transList.subList(n, priorDay));
+            Collections.sort(tempList);
 
-		System.out.println("Total Number of Notifications: "+countNotify);
+            if (diff % 2 == 0) {
+                if (2 * (tempList.get(diff / 2) + tempList.get((diff / 2) + 1)) <= transList.get(priorDay)) {
+                    countNotify++;
+                }
+            } else {
+                if (2 * tempList.get((int) Math.ceil(diff / 2)) <= transList.get(priorDay)) {
+                    countNotify++;
+                }
+            }
+            n++;
+            priorDay++;
+        }
 
-		sc.close();
-	}
+        System.out.println("Total Number of Notifications: " + countNotify);
+
+        sc.close();
+    }
 }

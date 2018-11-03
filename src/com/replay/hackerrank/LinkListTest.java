@@ -53,9 +53,9 @@ public class LinkListTest {
     private static SinglyLinkedListNode insertNodeAtHead(SinglyLinkedListNode llist, int data) {
 
         SinglyLinkedListNode listNode = new SinglyLinkedListNode(data);
-        if(llist == null){
+        if (llist == null) {
             llist = listNode;
-        }else{
+        } else {
             listNode.next = llist;
             llist = listNode;
         }

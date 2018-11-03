@@ -61,7 +61,7 @@ public class BouquetProblem {
                     bouquetListP.add(String.valueOf(j + 1));
                     bouquetListP.add(String.valueOf(j + 2));
 
-                    bouquetMapP.put(String.valueOf(j), new String[]{String.valueOf(j), String.valueOf(j+1), String.valueOf(j + 2)});
+                    bouquetMapP.put(String.valueOf(j), new String[]{String.valueOf(j), String.valueOf(j + 1), String.valueOf(j + 2)});
                 }
             }
 
@@ -112,15 +112,15 @@ public class BouquetProblem {
                 maxBouquetCost = (int) Math.floor(bouquetListQ.size() / 2) * q;
                 for (String sameQItem : bouquetListQ) {
                     String mapKey = null;
-                    for(Map.Entry<String, String[]> entry : bouquetMapP.entrySet()){
-                        for(int j=0; j< entry.getValue().length; j++){
-                            if(sameQItem.equalsIgnoreCase(entry.getValue()[j])){
+                    for (Map.Entry<String, String[]> entry : bouquetMapP.entrySet()) {
+                        for (int j = 0; j < entry.getValue().length; j++) {
+                            if (sameQItem.equalsIgnoreCase(entry.getValue()[j])) {
                                 mapKey = entry.getKey();
                             }
                         }
                     }
 
-                    if(mapKey != null){
+                    if (mapKey != null) {
                         bouquetMapP.remove(mapKey);
                     }
                 }

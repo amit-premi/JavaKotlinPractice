@@ -91,7 +91,7 @@ public class LinkListReverse {
         return secondPtr;
     }
 
-    private  Node findMiddleNode(Node head) {
+    private Node findMiddleNode(Node head) {
         // step 1
         Node slowPointer, fastPointer;
         slowPointer = fastPointer = head;
