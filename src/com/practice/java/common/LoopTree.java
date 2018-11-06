@@ -4,11 +4,13 @@ public class LoopTree {
 
     public static void main(String arg[]) {
 
-		/*int rowCount = 10;
+		int rowCount = 10;
 		for(int i=0; i<rowCount; i++) {
-			for(int j=i; j<=(rowCount-1)+(1+i*2); j++) {
+			int x = (rowCount-1)+(1+i*2);
+			//System.out.print("X value: "+x);
+			for(int j=i; j<=x; j++) {
 				if(j<=rowCount-1) {
-					System.out.print(" ");
+					System.out.print("$");
 				}
 				else {
 					System.out.print("*");
@@ -20,9 +22,9 @@ public class LoopTree {
 			//}
 
 			System.out.println("");
-		}*/
+		}
 
-        int rowCount = 15;
+       /* int rowCount = 15;
         int temp = 0;
         for (int i = 1; i <= rowCount; i++) {
             if (i == rowCount) continue;
@@ -47,7 +49,7 @@ public class LoopTree {
             }
             temp = i;
             System.out.println("");
-        }
+        }*/
 		
 /*		int rowCount = 15;
 		int temp = 0;
