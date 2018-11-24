@@ -2,30 +2,62 @@ package com.practice.java.linklist;
 
 public class LinkListReverse {
 
-    private Node head;
+    private LinkList head;
 
-    private static class Node {
+    private static class LinkList {
         int data;
-        Node next;
+        LinkList next;
 
-        Node(int data) {
+        LinkList(int data) {
             this.data = data;
         }
 
         @Override
         public String toString() {
-            return "Node [data=" + data + ", next=" + next + "]";
+            return "LinkList{" +
+                    "data=" + data +
+                    ", next=" + next +
+                    '}';
         }
-
     }
 
-    private void addLastElement(Node nodeAdd) {
+    public static void main(String[] args) {
+        LinkListReverse list = new LinkListReverse();
+
+        LinkList headNode = new LinkList(5);
+        list.addLastElement(headNode);
+        list.addLastElement(new LinkList(19));
+        list.addLastElement(new LinkList(25));
+        list.addLastElement(new LinkList(50));
+        list.addLastElement(new LinkList(15));
+        list.addLastElement(new LinkList(35));
+        list.addLastElement(new LinkList(40));
+        list.addLastElement(new LinkList(85));
+        list.addLastElement(new LinkList(125));
+
+        System.out.print("LinkList created: ");
+        list.printList(headNode);
+
+        System.out.println("\nMiddle Node: " + list.findMiddleNode(headNode).data);
+
+        System.out.print("Link list length(): " + list.listLength(headNode));
+
+        LinkList nNodeFromEnd = list.nthFromLastNode(headNode, 5);
+        System.out.print("\nNth Node element: " + nNodeFromEnd.data);
+
+        System.out.print("\nReversed LinkList: ");
+        LinkList reversedList = list.reverseFromMiddle(headNode);
+        list.printList(reversedList);
+        //list.printList(list.reverseList(headNode));
+    }
+
+    private void addLastElement(LinkList nodeAdd) {
         if (head == null) {
             head = nodeAdd;
             //System.out.println("If head == null: "+nodeAdd);
         } else {
             //System.out.println("Else head != null Before: "+head.toString());
-            Node temp = head;
+            LinkList temp = head;
             while (temp.next != null) {
                 temp = temp.next;
             }
@@ -34,17 +66,16 @@ public class LinkListReverse {
         }
     }
 
-    private void printList(Node nodeP) {
-        Node temp = nodeP;
+    private void printList(LinkList nodeP) {
+        LinkList temp = nodeP;
         while (temp != null) {
             System.out.print(temp.data + " ");
             temp = temp.next;
         }
     }
 
-    private Node reverseList(Node currentNode) {
-        Node previousNode = null;
-        Node nextNode = null;
+    private LinkList reverseList(LinkList currentNode) {
+        LinkList previousNode = null, nextNode;
         while (currentNode != null) {
 
             nextNode = currentNode.next;
@@ -58,10 +89,10 @@ public class LinkListReverse {
         return previousNode;
     }
 
-    private int listLength(Node nodeE) {
+    private int listLength(LinkList nodeE) {
         int length = 0;
 
-        Node temp = nodeE;
+        LinkList temp = nodeE;
         while (temp != null) {
             length++;
             temp = temp.next;
@@ -69,9 +100,9 @@ public class LinkListReverse {
         return length;
     }
 
-    private Node nthFromLastNode(Node nNode, int n) {
-        Node firstPtr = nNode;
-        Node secondPtr = nNode;
+    private LinkList nthFromLastNode(LinkList nNode, int n) {
+        LinkList firstPtr = nNode;
+        LinkList secondPtr = nNode;
 
         //System.out.println("\nFirst Node: "+firstPtr.toString());
         //System.out.println("Second Node: "+secondPtr.toString());
@@ -91,48 +122,92 @@ public class LinkListReverse {
         return secondPtr;
     }
 
-    private Node findMiddleNode(Node head) {
+    private LinkList findMiddleNode(LinkList head) {
         // step 1
-        Node slowPointer, fastPointer;
+        LinkList slowPointer, fastPointer;
         slowPointer = fastPointer = head;
 
         while (fastPointer != null) {
-            System.out.println("\nFast Pointer: " + fastPointer.toString());
+            //System.out.println("\nFast Pointer: " + fastPointer.toString());
             fastPointer = fastPointer.next;
             if (fastPointer != null && fastPointer.next != null) {
                 slowPointer = slowPointer.next;
                 fastPointer = fastPointer.next;
             }
-            System.out.println("Fast Pointer: " + fastPointer.toString());
-            System.out.println("Slow Pointer: " + slowPointer.toString());
         }
         return slowPointer;
     }
 
-    public static void main(String[] args) {
-        LinkListReverse list = new LinkListReverse();
+    /**
+     * Method to reverse the LinkList from Middle
+     *
+     * @param currentList = linkList
+     * @return = reversed list
+     */
+    private LinkList reverseFromMiddle(LinkList currentList) {
+        int length = listLength(currentList);
+        LinkList prevNode = null, nextNode = null;
+        LinkList newTempList = null;
 
-        Node headNode = new Node(5);
-        list.addLastElement(headNode);
-        list.addLastElement(new Node(19));
-        list.addLastElement(new Node(25));
-        list.addLastElement(new Node(50));
-        list.addLastElement(new Node(15));
-        list.addLastElement(new Node(35));
-        list.addLastElement(new Node(40));
-        list.addLastElement(new Node(85));
+        int count = 0;
+        while (count <= length / 2) {
+            if (newTempList == null) {
+                newTempList = new LinkList(currentList.data);
+            } else {
+                LinkList temp = newTempList;
+                while (temp.next != null) {
+                    temp = temp.next;
+                }
+                temp.next = new LinkList(currentList.data);
+            }
+            currentList = currentList.next;
+            count++;
+        }
 
-        System.out.print("LinkList created: ");
-        list.printList(headNode);
+        System.out.print("TempNodeList created: ");
+        printList(newTempList);
+        System.out.println("");
 
-        System.out.println("Middle Node: " + list.findMiddleNode(headNode));
+       /* System.out.print("\nCurrentList created: ");
+        printList(currentList);*/
 
-        System.out.print("\nLink list length(): " + list.listLength(headNode));
+        while (currentList != null) {
+            nextNode = currentList.next;
+            currentList.next = prevNode;
 
-        Node nNodeFromEnd = list.nthFromLastNode(headNode, 5);
-        System.out.print("\nNth Node element: " + nNodeFromEnd.data);
+            prevNode = currentList;
+            currentList = nextNode;
 
-        System.out.print("\nReversed LinkList: ");
-        list.printList(list.reverseList(headNode));
+            LinkList temp1 = newTempList;
+            assert temp1 != null;
+            while (temp1.next != null) {
+                temp1 = temp1.next;
+            }
+            temp1.next = prevNode;
+        }
+
+       /* System.out.print("TempNodeList created: ");
+        printList(tempList);
+
+        System.out.print("\nCurrentList created: ");
+        printList(currentList);*/
+
+        return newTempList;
+    }
+
+    private LinkList createTempList(LinkList linkList) {
+        LinkList newList = null;
+        while (linkList != null) {
+            if (newList == null)
+                newList = new LinkList(linkList.data);
+
+            while (newList.next != null) {
+                newList = newList.next;
+            }
+            newList.next = new LinkList(linkList.data);
+
+            linkList = linkList.next;
+        }
+        return newList;
     }
 }
