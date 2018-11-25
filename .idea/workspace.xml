@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="38dceb93-1c18-4f66-b38e-665028d5d93e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaKotlinPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaKotlinPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaKotlinPractice/com/practice/java/linklist/LinkListReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaKotlinPractice/com/practice/java/linklist/LinkListReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/practice/java/linklist/LinkListReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/practice/java/linklist/LinkListReverse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +22,7 @@
           <entry key="project.closed" value="44" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="7" />
-          <entry key="project.open.time.12" value="6" />
+          <entry key="project.open.time.12" value="7" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -37,19 +34,19 @@
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Learning" value="2" />
-          <entry key="java" value="144" />
+          <entry key="java" value="146" />
           <entry key="kt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="144" />
+          <entry key="JAVA" value="146" />
           <entry key="Kotlin" value="11" />
           <entry key="Scratch" value="2" />
         </counts>
@@ -58,14 +55,14 @@
         <counts>
           <entry key="Learning" value="94" />
           <entry key="dummy" value="15" />
-          <entry key="java" value="4860" />
+          <entry key="java" value="5603" />
           <entry key="kt" value="578" />
           <entry key="txt" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4860" />
+          <entry key="JAVA" value="5603" />
           <entry key="Kotlin" value="578" />
           <entry key="PLAIN_TEXT" value="75" />
           <entry key="Scratch" value="94" />
@@ -76,14 +73,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/practice/java/linklist/LinkListReverse.java">
+        <entry file="file://$PROJECT_DIR$/src/com/replay/java/common/RectangleIntersection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
-              <folding>
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -108,8 +101,8 @@
       <find>Comparable</find>
       <find>Armstrong</find>
       <find>reverseList</find>
-      <find>reverseFromMiddle</find>
       <find>addLastElement</find>
+      <find>reverseFromMiddle</find>
     </findStrings>
     <dirStrings>
       <dir>D:\WS_Kotlin\JavaKotlinPractice\src\com\practice\java\practice</dir>
@@ -121,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/learnKotlin/PracticeSession.kt" />
         <option value="$PROJECT_DIR$/src/com/practice/java/array/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/com/practice/java/common/InputStreamTest.java" />
         <option value="$PROJECT_DIR$/src/com/practice/java/common/NotificationTest.java" />
@@ -172,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/com/replay/java/common/LoopTree.java" />
         <option value="$PROJECT_DIR$/src/com/replay/java/SimplyTest.java" />
         <option value="$PROJECT_DIR$/src/com/practice/java/linklist/LinkListReverse.java" />
+        <option value="$PROJECT_DIR$/src/com/replay/java/common/RectangleIntersection.java" />
       </list>
     </option>
   </component>
@@ -214,28 +207,27 @@
               <item name="JavaKotlinPractice" type="58d84e3e:PackageViewProjectNode" />
               <item name="JavaKotlinPractice" type="616d4139:PackageViewModuleNode" />
               <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="practice" type="1f31426a:PackageElementNode" />
-              <item name="java" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="JavaKotlinPractice" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JavaKotlinPractice" type="616d4139:PackageViewModuleNode" />
-              <item name="com" type="1f31426a:PackageElementNode" />
-              <item name="practice" type="1f31426a:PackageElementNode" />
-              <item name="java" type="1f31426a:PackageElementNode" />
-              <item name="linklist" type="1f31426a:PackageElementNode" />
+              <item name="replay" type="1f31426a:PackageElementNode" />
             </path>
             <path>
               <item name="JavaKotlinPractice" type="58d84e3e:PackageViewProjectNode" />
               <item name="JavaKotlinPractice" type="616d4139:PackageViewModuleNode" />
               <item name="com" type="1f31426a:PackageElementNode" />
               <item name="replay" type="1f31426a:PackageElementNode" />
+              <item name="java" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="JavaKotlinPractice" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JavaKotlinPractice" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="replay" type="1f31426a:PackageElementNode" />
+              <item name="java" type="1f31426a:PackageElementNode" />
+              <item name="common" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,10 +239,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543081875129" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543134891699" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -276,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkListReverse">
+  <component name="RunManager" selected="Application.RectangleIntersection">
     <configuration name="LinkListReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.practice.java.linklist.LinkListReverse" />
       <module name="JavaKotlinPractice" />
@@ -316,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.replay.java.sorting.MergeSort" />
+    <configuration name="RectangleIntersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.replay.java.common.RectangleIntersection" />
       <module name="JavaKotlinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.replay.java.sorting.*" />
+          <option name="PATTERN" value="com.replay.java.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -343,19 +336,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.LoopTree" />
       <item itemvalue="Application.LoopTree (1)" />
       <item itemvalue="Application.SimplyTest" />
       <item itemvalue="Application.LinkListReverse" />
+      <item itemvalue="Application.RectangleIntersection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RectangleIntersection" />
         <item itemvalue="Application.LinkListReverse" />
         <item itemvalue="Application.SimplyTest" />
         <item itemvalue="Application.LoopTree (1)" />
         <item itemvalue="Application.LoopTree" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +382,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2194332" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.22348177" />
       <window_info id="Learn" order="6" weight="0.33522266" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -418,7 +411,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24858299" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22348177" />
       <window_info id="Learn" order="6" weight="0.33522266" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -450,13 +443,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Minor changes &amp; updates in Multiple Classes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/practice/java/common/SampleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/java/common/StringMixTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -788,12 +774,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/practice/java/linklist/LinkListReverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/replay/java/common/RectangleIntersection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
