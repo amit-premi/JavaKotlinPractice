@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ArrayTest {
 
-    public static void main(String args[]) throws NumberFormatException {
+    public static void main(String[] args) throws NumberFormatException {
 
         int rowCount;
         int colCount;
@@ -18,7 +18,7 @@ public class ArrayTest {
 
         System.out.println("Array Row & Col: " + rowCount + " & " + colCount);
 
-        int matrix[][] = new int[rowCount][colCount];
+        int[][] matrix = new int[rowCount][colCount];
 
         System.out.println("Enter Matrix values for 3x5");
         for (int i = 0; i < rowCount; i++)

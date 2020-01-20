@@ -7,8 +7,10 @@ import com.learnKotlin.classFunction.EmployeeData
  */
 fun main(args: Array<String>) {
 
-    val employee: EmployeeData = EmployeeData(12, "Amit Premi", "Software Developer",
-            200000.45.toFloat());
+    val employee: EmployeeData = EmployeeData(
+        12, "Amit Premi", "Software Developer",
+        200000.45.toFloat()
+    );
     employee.id = 12
     employee.name = "Amit EDIT"
     employee.profession = "Software Developer"
